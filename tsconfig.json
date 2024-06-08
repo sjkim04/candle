@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es2020",
+        "module": "CommonJS",
+        "rootDir": "./src",
+        "lib": ["ES2020", "ESNext"],
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "outDir": "./build"
+    },
+    "include": ["./src/**/*"]
+}
